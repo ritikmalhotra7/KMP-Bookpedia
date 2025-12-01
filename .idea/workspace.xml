@@ -9,10 +9,316 @@
     <option name="autoReloadType" value="NONE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8b176ee6-95f5-4b5e-983a-8263ac549d14" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/caches/deviceStreaming.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/deploymentTargetSelector.xml" beforeDir="false" />
+    <list default="true" id="8b176ee6-95f5-4b5e-983a-8263ac549d14" name="Changes" comment="Initial Commit">
+      <change afterPath="$PROJECT_DIR$/.idea/artifacts/composeApp_desktop.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/composeApp/build.gradle.kts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/composeApp/build/classes/kotlin/desktop/main/com/sample/bookpedia/core/di/MainModuleKt$sharedModule$lambda$7$$inlined$singleOf$default$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/composeApp/build/classes/kotlin/desktop/main/com/sample/bookpedia/core/domain/Result$Success.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/composeApp/build/classes/kotlin/desktop/main/com/sample/bookpedia/feat_book/data/database/FavouriteBookDao$DefaultImpls.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/composeApp/build/classes/kotlin/desktop/main/com/sample/bookpedia/feat_book/data/database/FavouriteBookDao_Impl$upsertBookWithRelations$2.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/composeApp/build/classes/kotlin/desktop/main/com/sample/bookpedia/feat_book/data/database/entities/BookLanguageCrossRef.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/composeApp/build/classes/kotlin/desktop/main/com/sample/bookpedia/feat_book/data/dto/search/SearchedBookDto$$serializer.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/composeApp/build/classes/kotlin/desktop/main/com/sample/bookpedia/feat_book/data/repository/DefaultBookRepository$isBookFavourite$$inlined$map$1$2$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/composeApp/build/classes/kotlin/desktop/main/com/sample/bookpedia/feat_book/data/repository/DefaultBookRepository$searchBooks$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/composeApp/build/classes/kotlin/desktop/main/com/sample/bookpedia/feat_book/presentation/book_details/components/BookChipKt$WhenMappings.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/composeApp/build/classes/kotlin/desktop/main/com/sample/bookpedia/feat_book/presentation/book_list/BookListAction$OnBookClicked.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/composeApp/build/classes/kotlin/desktop/main/com/sample/bookpedia/feat_book/presentation/book_list/BookListAction.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/composeApp/build/classes/kotlin/desktop/main/com/sample/bookpedia/feat_book/presentation/book_list/BookListViewModel$state$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/composeApp/build/generated/assets/copyDebugComposeResourcesToAndroidAssets/composeResources/cmp_bookpedia.composeapp.generated.resources/drawable/book_error_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/composeApp/build/generated/assets/copyDebugComposeResourcesToAndroidAssets/composeResources/cmp_bookpedia.composeapp.generated.resources/drawable/compose-multiplatform.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/composeApp/build/generated/assets/copyDebugComposeResourcesToAndroidAssets/composeResources/cmp_bookpedia.composeapp.generated.resources/values/strings.commonMain.cvr" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/composeApp/build/generated/compose/resourceGenerator/assembledResources/desktopMain/composeResources/cmp_bookpedia.composeapp.generated.resources/drawable/book_error_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/composeApp/build/generated/compose/resourceGenerator/assembledResources/desktopMain/composeResources/cmp_bookpedia.composeapp.generated.resources/drawable/compose-multiplatform.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/composeApp/build/generated/compose/resourceGenerator/assembledResources/desktopMain/composeResources/cmp_bookpedia.composeapp.generated.resources/values/strings.commonMain.cvr" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/composeApp/build/generated/compose/resourceGenerator/assembledResources/iosArm64Main/composeResources/cmp_bookpedia.composeapp.generated.resources/drawable/compose-multiplatform.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/composeApp/build/generated/compose/resourceGenerator/kotlin/androidMainResourceCollectors/cmp_bookpedia/composeapp/generated/resources/ActualResourceCollectors.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/composeApp/build/generated/compose/resourceGenerator/kotlin/commonMainResourceAccessors/cmp_bookpedia/composeapp/generated/resources/Drawable0.commonMain.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/composeApp/build/generated/compose/resourceGenerator/kotlin/commonMainResourceAccessors/cmp_bookpedia/composeapp/generated/resources/String0.commonMain.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/composeApp/build/generated/compose/resourceGenerator/kotlin/commonMainResourceCollectors/cmp_bookpedia/composeapp/generated/resources/ExpectResourceCollectors.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/composeApp/build/generated/compose/resourceGenerator/kotlin/commonResClass/cmp_bookpedia/composeapp/generated/resources/Res.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/composeApp/build/generated/compose/resourceGenerator/kotlin/desktopMainResourceCollectors/cmp_bookpedia/composeapp/generated/resources/ActualResourceCollectors.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/composeApp/build/generated/compose/resourceGenerator/kotlin/iosArm64MainResourceCollectors/cmp_bookpedia/composeapp/generated/resources/ActualResourceCollectors.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/composeApp/build/generated/compose/resourceGenerator/kotlin/iosSimulatorArm64MainResourceCollectors/cmp_bookpedia/composeapp/generated/resources/ActualResourceCollectors.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/composeApp/build/generated/compose/resourceGenerator/kotlin/iosX64MainResourceCollectors/cmp_bookpedia/composeapp/generated/resources/ActualResourceCollectors.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/composeApp/build/generated/ksp/android/androidDebug/kotlin/com/sample/bookpedia/feat_book/data/database/BookDatabaseConstructor.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/composeApp/build/generated/ksp/android/androidDebug/kotlin/com/sample/bookpedia/feat_book/data/database/FavouriteBookDao_Impl.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/composeApp/build/generated/ksp/android/androidDebug/kotlin/com/sample/bookpedia/feat_book/data/database/FavouriteBookDatabase_Impl.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/composeApp/build/generated/ksp/desktop/desktopMain/kotlin/com/sample/bookpedia/feat_book/data/database/BookDatabaseConstructor.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/composeApp/build/generated/ksp/desktop/desktopMain/kotlin/com/sample/bookpedia/feat_book/data/database/FavouriteBookDao_Impl.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/composeApp/build/generated/ksp/desktop/desktopMain/kotlin/com/sample/bookpedia/feat_book/data/database/FavouriteBookDatabase_Impl.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/composeApp/build/intermediates/compatible_screen_manifest/release/createReleaseCompatibleScreenManifests/output-metadata.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/composeApp/build/intermediates/desugar_graph/release/dexBuilderRelease/out/currentProject/dirs_bucket_0/graph.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/composeApp/build/intermediates/dex/debug/mergeExtDexDebug/classes.dex" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/composeApp/build/intermediates/dex_archive_input_jar_hashes/debug/dexBuilderDebug/out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/composeApp/build/intermediates/incremental/debug-mergeJavaRes/zip-cache/5JnmmE7W8cseBFMnTxPZlaS_lrc=" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/composeApp/build/intermediates/incremental/debug-mergeJavaRes/zip-cache/B4DcCzizsgAhKBHAN3kcqIjhlCU=" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/composeApp/build/intermediates/incremental/debug-mergeJavaRes/zip-cache/BID2QKUvH3oj9TuN_dShCvLjnZU=" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/composeApp/build/intermediates/incremental/debug-mergeJavaRes/zip-cache/CFp1w6e5X7cP2e8QtsuI+tJ6r0k=" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/composeApp/build/intermediates/incremental/debug-mergeJavaRes/zip-cache/NpwAcp0eIXMYLMUHQ+Aq0VKM4t0=" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/composeApp/build/intermediates/incremental/debug-mergeJavaRes/zip-cache/ZzCRBErCABL2q_xkgbVot8+f8J4=" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/composeApp/build/intermediates/incremental/debug-mergeJavaRes/zip-cache/bszOm1xNr+k9u62p_jTyRLG23tU=" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/composeApp/build/intermediates/incremental/debug-mergeJavaRes/zip-cache/dkC8ERJRqBXKDv8eUe2JJUNPtRU=" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/composeApp/build/intermediates/incremental/debug-mergeJavaRes/zip-cache/h45bemx_gglnTqAA03+NJsWqNUY=" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/composeApp/build/intermediates/incremental/debug-mergeJavaRes/zip-cache/xdLW6WlXFyAdtpkNkpDIZ0juwSE=" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/composeApp/build/intermediates/incremental/debug-mergeJavaRes/zip-cache/xvtfOsoRN6boZPRyT8Rh6i0mEmI=" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/composeApp/build/intermediates/incremental/debug/mergeDebugResources/merged.dir/values-hi/values-hi.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/composeApp/build/intermediates/incremental/debug/mergeDebugResources/merged.dir/values-iw/values-iw.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/composeApp/build/intermediates/incremental/debug/mergeDebugResources/merged.dir/values-port/values-port.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/composeApp/build/intermediates/incremental/debug/mergeDebugResources/merged.dir/values-pt-rPT/values-pt-rPT.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/composeApp/build/intermediates/incremental/debug/mergeDebugResources/merged.dir/values-v23/values-v23.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/composeApp/build/intermediates/incremental/debug/packageDebugResources/merged.dir/values/values.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/composeApp/build/intermediates/incremental/release-mergeJavaRes/zip-cache/3IkK9VrBdHdQxN89LoABlmqzR4g=" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/composeApp/build/intermediates/incremental/release-mergeJavaRes/zip-cache/4mM_KCfOuVAJqXVZRZRIcSH7Qe4=" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/composeApp/build/intermediates/incremental/release-mergeJavaRes/zip-cache/6mqI_bgVsVdFSG0qTTW59lUNRhk=" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/composeApp/build/intermediates/incremental/release-mergeJavaRes/zip-cache/FjBNBr5Ln8Ird3MkBLM2Hd62ZeI=" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/composeApp/build/intermediates/incremental/release-mergeJavaRes/zip-cache/FtV42xBtBfoECwFbLrLRrhSCZ00=" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/composeApp/build/intermediates/incremental/release-mergeJavaRes/zip-cache/Y1UPrd7_ltKHedpfOrJvjMv7R6A=" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/composeApp/build/intermediates/incremental/release-mergeJavaRes/zip-cache/YA7HqfVFdCEtjVecAsJUnWG_omo=" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/composeApp/build/intermediates/incremental/release-mergeJavaRes/zip-cache/dLysiFhkVx8JOMwyoiSPZgloWJk=" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/composeApp/build/intermediates/incremental/release-mergeJavaRes/zip-cache/k1LXDxpSDhOIMrJJPW2p094Wdvg=" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/composeApp/build/intermediates/incremental/release-mergeJavaRes/zip-cache/o7wM03Qu8_27XOv2CS3p_2VMt0Y=" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/composeApp/build/intermediates/incremental/release/mergeReleaseResources/merged.dir/values-as/values-as.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/composeApp/build/intermediates/incremental/release/mergeReleaseResources/merged.dir/values-fr/values-fr.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/composeApp/build/intermediates/incremental/release/mergeReleaseResources/merged.dir/values-gl/values-gl.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/composeApp/build/intermediates/incremental/release/mergeReleaseResources/merged.dir/values-large-v4/values-large-v4.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/composeApp/build/intermediates/incremental/release/mergeReleaseResources/merged.dir/values-my/values-my.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/composeApp/build/intermediates/incremental/release/mergeReleaseResources/merged.dir/values-sr/values-sr.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/composeApp/build/intermediates/incremental/release/mergeReleaseResources/merged.dir/values-tl/values-tl.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/composeApp/build/intermediates/incremental/release/mergeReleaseResources/merged.dir/values-uk/values-uk.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/composeApp/build/intermediates/incremental/release/mergeReleaseResources/merged.dir/values-uz/values-uz.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/composeApp/build/intermediates/incremental/release/mergeReleaseResources/merged.dir/values-watch-v20/values-watch-v20.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/composeApp/build/intermediates/java_res/debug/processDebugJavaRes/out/META-INF/composeApp_debug.kotlin_module" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/composeApp/build/intermediates/lint-cache/lintVitalAnalyzeRelease/maven.google/master-index.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/composeApp/build/intermediates/merged_native_libs/release/mergeReleaseNativeLibs/out/lib/arm64-v8a/libsqliteJni.so" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/composeApp/build/intermediates/merged_res/debug/mergeDebugResources/mipmap-xxhdpi_ic_launcher.png.flat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/composeApp/build/intermediates/merged_res/debug/mergeDebugResources/values-af_values-af.arsc.flat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/composeApp/build/intermediates/merged_res/debug/mergeDebugResources/values-is_values-is.arsc.flat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/composeApp/build/intermediates/merged_res/debug/mergeDebugResources/values-ml_values-ml.arsc.flat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/composeApp/build/intermediates/merged_res/release/mergeReleaseResources/mipmap-xxxhdpi_ic_launcher.png.flat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/composeApp/build/intermediates/merged_res/release/mergeReleaseResources/values-bg_values-bg.arsc.flat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/composeApp/build/intermediates/merged_res/release/mergeReleaseResources/values-fi_values-fi.arsc.flat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/composeApp/build/intermediates/merged_res/release/mergeReleaseResources/values-fr_values-fr.arsc.flat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/composeApp/build/intermediates/merged_res/release/mergeReleaseResources/values-night-v8_values-night-v8.arsc.flat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/composeApp/build/intermediates/merged_res/release/mergeReleaseResources/values-th_values-th.arsc.flat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/composeApp/build/intermediates/merged_res/release/mergeReleaseResources/values-v17_values-v17.arsc.flat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/composeApp/build/intermediates/merged_res/release/mergeReleaseResources/values-vi_values-vi.arsc.flat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/composeApp/build/intermediates/merged_res/release/mergeReleaseResources/values-zh-rCN_values-zh-rCN.arsc.flat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/composeApp/build/intermediates/merged_res/release/mergeReleaseResources/values-zh-rHK_values-zh-rHK.arsc.flat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/composeApp/build/intermediates/merged_res_blame_folder/debug/mergeDebugResources/out/multi-v2/values-fr.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/composeApp/build/intermediates/merged_res_blame_folder/debug/mergeDebugResources/out/multi-v2/values-hi.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/composeApp/build/intermediates/merged_res_blame_folder/debug/mergeDebugResources/out/multi-v2/values-sr.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/composeApp/build/intermediates/merged_res_blame_folder/debug/mergeDebugResources/out/multi-v2/values-sw.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/composeApp/build/intermediates/merged_res_blame_folder/debug/mergeDebugResources/out/multi-v2/values-v24.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/composeApp/build/intermediates/merged_res_blame_folder/release/mergeReleaseResources/out/multi-v2/values-es-rUS.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/composeApp/build/intermediates/merged_res_blame_folder/release/mergeReleaseResources/out/multi-v2/values-it.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/composeApp/build/intermediates/merged_res_blame_folder/release/mergeReleaseResources/out/multi-v2/values-land.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/composeApp/build/intermediates/merged_res_blame_folder/release/mergeReleaseResources/out/multi-v2/values-pl.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/composeApp/build/intermediates/merged_res_blame_folder/release/mergeReleaseResources/out/multi-v2/values-v23.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/composeApp/build/intermediates/merged_res_blame_folder/release/mergeReleaseResources/out/multi-v2/values-xlarge-v4.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/composeApp/build/intermediates/packaged_res/debug/packageDebugResources/mipmap-xhdpi-v4/ic_launcher_round.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/composeApp/build/intermediates/project_dex_archive/debug/dexBuilderDebug/out/com/sample/bookpedia/ComposableSingletons$MainActivityKt.dex" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/composeApp/build/intermediates/project_dex_archive/debug/dexBuilderDebug/out/com/sample/bookpedia/core/di/MainModuleKt$sharedModule$lambda$7$$inlined$viewModelOf$default$3.dex" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/composeApp/build/intermediates/project_dex_archive/debug/dexBuilderDebug/out/com/sample/bookpedia/core/domain/Result$Error.dex" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/composeApp/build/intermediates/project_dex_archive/debug/dexBuilderDebug/out/com/sample/bookpedia/core/presentation/UiText.dex" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/composeApp/build/intermediates/project_dex_archive/debug/dexBuilderDebug/out/com/sample/bookpedia/feat_book/data/database/DatabaseFactory$create$$inlined$databaseBuilder$default$1.dex" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/composeApp/build/intermediates/project_dex_archive/debug/dexBuilderDebug/out/com/sample/bookpedia/feat_book/data/database/FavouriteBookDao_Impl.dex" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/composeApp/build/intermediates/project_dex_archive/debug/dexBuilderDebug/out/com/sample/bookpedia/feat_book/data/remote/KtorRemoteBookDataSource.dex" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/composeApp/build/intermediates/project_dex_archive/debug/dexBuilderDebug/out/com/sample/bookpedia/feat_book/presentation/book_details/BookDetailsAction$OnSelectedBookChange.dex" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/composeApp/build/intermediates/project_dex_archive/debug/dexBuilderDebug/out/com/sample/bookpedia/feat_book/presentation/book_details/BookDetailsViewModel$onAction$1.dex" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/composeApp/build/intermediates/project_dex_archive/debug/dexBuilderDebug/out/com/sample/bookpedia/feat_book/presentation/book_details/BookDetailsViewModel$state$1.dex" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/composeApp/build/intermediates/project_dex_archive/debug/dexBuilderDebug/out/com/sample/bookpedia/feat_book/presentation/book_details/components/TitledContentKt.dex" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/composeApp/build/intermediates/project_dex_archive/debug/dexBuilderDebug/out/com/sample/bookpedia/feat_book/presentation/book_list/BookListViewModel.dex" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/composeApp/build/intermediates/project_dex_archive/debug/dexBuilderDebug/out/com/sample/bookpedia/feat_book/presentation/book_list/components/BookListItemKt.dex" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/composeApp/build/intermediates/project_dex_archive/debug/dexBuilderDebug/out/com/sample/bookpedia/feat_book/presentation/book_list/components/ComposableSingletons$BookSearchBarKt$lambda-1$1.dex" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/composeApp/build/intermediates/project_dex_archive/release/dexBuilderRelease/out/cmp_bookpedia/composeapp/generated/resources/CommonMainDrawable0.dex" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/composeApp/build/intermediates/project_dex_archive/release/dexBuilderRelease/out/cmp_bookpedia/composeapp/generated/resources/Res$font.dex" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/composeApp/build/intermediates/project_dex_archive/release/dexBuilderRelease/out/com/sample/bookpedia/core/di/MainModuleKt$sharedModule$lambda$7$$inlined$viewModelOf$default$3.dex" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/composeApp/build/intermediates/project_dex_archive/release/dexBuilderRelease/out/com/sample/bookpedia/core/domain/Result$Error.dex" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/composeApp/build/intermediates/project_dex_archive/release/dexBuilderRelease/out/com/sample/bookpedia/core/presentation/ColorsKt.dex" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/composeApp/build/intermediates/project_dex_archive/release/dexBuilderRelease/out/com/sample/bookpedia/core/presentation/UiText.dex" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/composeApp/build/intermediates/project_dex_archive/release/dexBuilderRelease/out/com/sample/bookpedia/core/presentation/navigation/AppNavGraphKt$AppNavGraph$1$1$1$2.dex" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/composeApp/build/intermediates/project_dex_archive/release/dexBuilderRelease/out/com/sample/bookpedia/feat_book/data/database/FavouriteBookDao_Impl$5.dex" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/composeApp/build/intermediates/project_dex_archive/release/dexBuilderRelease/out/com/sample/bookpedia/feat_book/data/database/entities/AuthorEntity$$serializer.dex" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/composeApp/build/intermediates/project_dex_archive/release/dexBuilderRelease/out/com/sample/bookpedia/feat_book/data/dto/details/DescriptionDto.dex" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/composeApp/build/intermediates/project_dex_archive/release/dexBuilderRelease/out/com/sample/bookpedia/feat_book/data/dto/search/SearchedBookDto$$serializer.dex" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/composeApp/build/intermediates/project_dex_archive/release/dexBuilderRelease/out/com/sample/bookpedia/feat_book/data/remote/KtorRemoteBookDataSource.dex" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/composeApp/build/intermediates/project_dex_archive/release/dexBuilderRelease/out/com/sample/bookpedia/feat_book/data/repository/DefaultBookRepository$getFavouriteBooks$$inlined$map$1$2.dex" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/composeApp/build/intermediates/project_dex_archive/release/dexBuilderRelease/out/com/sample/bookpedia/feat_book/domain/repository/BookRepository.dex" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/composeApp/build/intermediates/project_dex_archive/release/dexBuilderRelease/out/com/sample/bookpedia/feat_book/presentation/book_details/BookDetailsScreenKt$BookDetailsScreen$3$1$1$2$1.dex" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/composeApp/build/intermediates/stripped_native_libs/debug/stripDebugDebugSymbols/out/lib/armeabi-v7a/libandroidx.graphics.path.so" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/composeApp/build/intermediates/stripped_native_libs/release/stripReleaseDebugSymbols/out/lib/x86_64/libsqliteJni.so" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/composeApp/build/kotlin-multiplatform-resources/aggregated-resources/iosArm64/composeResources/cmp_bookpedia.composeapp.generated.resources/drawable/book_error_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/composeApp/build/kotlin-multiplatform-resources/aggregated-resources/iosArm64/composeResources/cmp_bookpedia.composeapp.generated.resources/drawable/compose-multiplatform.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/composeApp/build/kotlin-multiplatform-resources/aggregated-resources/iosArm64/composeResources/cmp_bookpedia.composeapp.generated.resources/values/strings.commonMain.cvr" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/composeApp/build/kotlin-multiplatform-resources/aggregated-resources/iosSimulatorArm64/composeResources/cmp_bookpedia.composeapp.generated.resources/drawable/book_error_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/composeApp/build/kotlin-multiplatform-resources/aggregated-resources/iosSimulatorArm64/composeResources/cmp_bookpedia.composeapp.generated.resources/drawable/compose-multiplatform.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/composeApp/build/kotlin-multiplatform-resources/aggregated-resources/iosSimulatorArm64/composeResources/cmp_bookpedia.composeapp.generated.resources/values/strings.commonMain.cvr" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/composeApp/build/kotlin-multiplatform-resources/aggregated-resources/iosX64/composeResources/cmp_bookpedia.composeapp.generated.resources/drawable/book_error_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/composeApp/build/kotlin-multiplatform-resources/aggregated-resources/iosX64/composeResources/cmp_bookpedia.composeapp.generated.resources/drawable/compose-multiplatform.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/composeApp/build/kotlin-multiplatform-resources/aggregated-resources/iosX64/composeResources/cmp_bookpedia.composeapp.generated.resources/values/strings.commonMain.cvr" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/composeApp/build/kotlin-multiplatform-resources/assemble-hierarchically/iosSimulatorArm64ResolveSelfResources/composeResources/cmp_bookpedia.composeapp.generated.resources/values/strings.commonMain.cvr" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/composeApp/build/kotlin/compileDebugKotlinAndroid/cacheable/caches-jvm/inputs/source-to-output.tab_i.len" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/composeApp/build/kotlin/compileDebugKotlinAndroid/cacheable/caches-jvm/jvm/kotlin/class-fq-name-to-source.tab.keystream.len" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/composeApp/build/kotlin/compileDebugKotlinAndroid/cacheable/caches-jvm/jvm/kotlin/class-fq-name-to-source.tab.values.at" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/composeApp/build/kotlin/compileDebugKotlinAndroid/cacheable/caches-jvm/jvm/kotlin/complementary-files.tab_i.len" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/composeApp/build/kotlin/compileDebugKotlinAndroid/cacheable/last-build.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/composeApp/build/kotlin/compileKotlinDesktop/cacheable/caches-jvm/inputs/source-to-output.tab.keystream" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/composeApp/build/kotlin/compileKotlinDesktop/cacheable/caches-jvm/jvm/kotlin/class-attributes.tab.keystream.len" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/composeApp/build/kotlin/compileKotlinDesktop/cacheable/caches-jvm/jvm/kotlin/class-attributes.tab.len" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/composeApp/build/kotlin/compileKotlinDesktop/cacheable/caches-jvm/jvm/kotlin/inline-functions.tab.len" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/composeApp/build/kotlin/compileKotlinDesktop/cacheable/caches-jvm/jvm/kotlin/internal-name-to-source.tab.keystream.len" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/composeApp/build/kotlin/compileKotlinDesktop/cacheable/caches-jvm/jvm/kotlin/internal-name-to-source.tab.values.at" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/composeApp/build/kotlin/compileKotlinDesktop/cacheable/caches-jvm/jvm/kotlin/proto.tab.len" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/composeApp/build/kotlin/compileKotlinDesktop/cacheable/caches-jvm/lookups/file-to-id.tab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/composeApp/build/kotlin/compileReleaseKotlinAndroid/cacheable/caches-jvm/inputs/source-to-output.tab.values.s" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/composeApp/build/kotlin/compileReleaseKotlinAndroid/cacheable/caches-jvm/jvm/kotlin/constants.tab.len" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/composeApp/build/kotlin/compileReleaseKotlinAndroid/cacheable/caches-jvm/jvm/kotlin/inline-functions.tab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/composeApp/build/kotlin/compileReleaseKotlinAndroid/cacheable/caches-jvm/jvm/kotlin/proto.tab_i" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/composeApp/build/kotlin/compileReleaseKotlinAndroid/cacheable/caches-jvm/jvm/kotlin/subtypes.tab_i" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/composeApp/build/kotlin/compileReleaseKotlinAndroid/cacheable/caches-jvm/jvm/kotlin/supertypes.tab.keystream.len" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/composeApp/build/kotlin/compileReleaseKotlinAndroid/cacheable/caches-jvm/lookups/file-to-id.tab_i" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/composeApp/build/kotlin/compileReleaseKotlinAndroid/cacheable/caches-jvm/lookups/lookups.tab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/composeApp/build/kotlin/compileReleaseKotlinAndroid/cacheable/caches-jvm/lookups/lookups.tab.keystream" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/composeApp/build/kotlin/compileReleaseKotlinAndroid/cacheable/caches-jvm/lookups/lookups.tab.keystream.len" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/composeApp/build/kotlin/compileReleaseKotlinAndroid/local-state/build-history.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/composeApp/build/kotlinTransformedMetadataLibraries/commonMain/io.ktor-ktor-websockets-3.0.0-commonMain-tSaR_g.klib" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/composeApp/build/kotlinTransformedMetadataLibraries/commonMain/org.jetbrains.androidx.navigation-navigation-compose-2.8.0-alpha10-commonMain-x_0rGg.klib" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/composeApp/build/kspCaches/android/androidDebug/caches.uptodate" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/composeApp/build/kspCaches/android/androidDebug/classLookups/file-to-id.tab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/composeApp/build/kspCaches/android/androidDebug/symbolLookups/file-to-id.tab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/composeApp/build/kspCaches/android/androidDebug/symbolLookups/file-to-id.tab_i.len" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/composeApp/build/kspCaches/android/androidDebug/symbolLookups/lookups.tab.len" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/composeApp/build/kspCaches/android/androidRelease/classLookups/file-to-id.tab_i" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/composeApp/build/kspCaches/android/androidRelease/classLookups/lookups.tab.keystream" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/composeApp/build/kspCaches/desktop/desktopMain/caches.uptodate" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/composeApp/build/kspCaches/desktop/desktopMain/symbolLookups/id-to-file.tab_i" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/composeApp/build/kspCaches/desktop/desktopMain/symbolLookups/lookups.tab.keystream" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/composeApp/build/processedResources/iosX64/main/composeResources/cmp_bookpedia.composeapp.generated.resources/values/strings.commonMain.cvr" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/composeApp/build/tmp/kotlin-classes/debug/com/sample/bookpedia/MainActivity.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/composeApp/build/tmp/kotlin-classes/debug/com/sample/bookpedia/core/presentation/navigation/AppNavGraphKt$AppNavGraph$1$1$1$6.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/composeApp/build/tmp/kotlin-classes/debug/com/sample/bookpedia/feat_book/data/database/BookDatabaseConstructor.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/composeApp/build/tmp/kotlin-classes/debug/com/sample/bookpedia/feat_book/data/database/FavouriteBookDao_Impl$5.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/composeApp/build/tmp/kotlin-classes/debug/com/sample/bookpedia/feat_book/data/database/FavouriteBookDatabase_Impl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/composeApp/build/tmp/kotlin-classes/debug/com/sample/bookpedia/feat_book/data/dto/details/DescriptionDto.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/composeApp/build/tmp/kotlin-classes/debug/com/sample/bookpedia/feat_book/data/remote/KtorRemoteBookDataSource$searchBooks$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/composeApp/build/tmp/kotlin-classes/debug/com/sample/bookpedia/feat_book/data/repository/DefaultBookRepository$isBookFavourite$$inlined$map$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/composeApp/build/tmp/kotlin-classes/debug/com/sample/bookpedia/feat_book/presentation/book_details/BookDetailsViewModel.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/composeApp/build/tmp/kotlin-classes/debug/com/sample/bookpedia/feat_book/presentation/book_details/components/ComposableSingletons$BlurredImageBackgroundKt.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/composeApp/build/tmp/kotlin-classes/debug/com/sample/bookpedia/feat_book/presentation/book_list/BookListAction$OnTabSelected.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/composeApp/build/tmp/kotlin-classes/debug/com/sample/bookpedia/feat_book/presentation/book_list/components/BookListKt$BookList$lambda$4$lambda$3$$inlined$items$default$2.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/composeApp/build/tmp/kotlin-classes/release/cmp_bookpedia/composeapp/generated/resources/Res$string.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/composeApp/build/tmp/kotlin-classes/release/com/sample/bookpedia/core/data/remote/HttpClientFactory$create$1$3$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/composeApp/build/tmp/kotlin-classes/release/com/sample/bookpedia/core/data/remote/HttpClientFactory.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/composeApp/build/tmp/kotlin-classes/release/com/sample/bookpedia/core/di/MainModuleKt$sharedModule$lambda$7$$inlined$singleOf$default$2.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/composeApp/build/tmp/kotlin-classes/release/com/sample/bookpedia/core/di/MainModuleKt$sharedModule$lambda$7$$inlined$viewModelOf$default$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/composeApp/build/tmp/kotlin-classes/release/com/sample/bookpedia/core/presentation/UiText$DynamicString.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/composeApp/build/tmp/kotlin-classes/release/com/sample/bookpedia/core/presentation/navigation/AppNavGraphKt$AppNavGraph$1$1$1$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/composeApp/build/tmp/kotlin-classes/release/com/sample/bookpedia/core/utils/LoggerKt.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/composeApp/build/tmp/kotlin-classes/release/com/sample/bookpedia/feat_book/data/database/FavouriteBookDatabase_Impl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/composeApp/build/tmp/kotlin-classes/release/com/sample/bookpedia/feat_book/data/dto/details/BookWorkDto$Companion.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/composeApp/build/tmp/kotlin-classes/release/com/sample/bookpedia/feat_book/data/repository/DefaultBookRepository$isBookFavourite$$inlined$map$1$2$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/composeApp/build/tmp/kotlin-classes/release/com/sample/bookpedia/feat_book/presentation/book_details/components/BlurredImageBackgroundKt$BlurredImageBackground$1$2$1$2.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/composeApp/build/tmp/kotlin-classes/release/com/sample/bookpedia/feat_book/presentation/book_list/BookListScreenKt$BookListScreen$3$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/composeApp/build/tmp/kotlin-classes/release/com/sample/bookpedia/feat_book/presentation/book_list/components/ComposableSingletons$BookSearchBarKt$lambda-3$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/composeApp/schemas/com.sample.bookpedia.feat_book.data.database.FavouriteBookDatabase/1.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/composeApp/src/androidMain/AndroidManifest.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/composeApp/src/androidMain/kotlin/com/sample/Preview.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/composeApp/src/androidMain/kotlin/com/sample/bookpedia/MainActivity.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/composeApp/src/androidMain/kotlin/com/sample/bookpedia/core/di/MainModule.android.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/composeApp/src/androidMain/kotlin/com/sample/bookpedia/core/presentation/Application.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/composeApp/src/androidMain/kotlin/com/sample/bookpedia/feat_book/data/database/DatabaseFactory.android.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/composeApp/src/androidMain/res/drawable-v24/ic_launcher_foreground.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/composeApp/src/androidMain/res/drawable/ic_launcher_background.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/composeApp/src/androidMain/res/mipmap-anydpi-v26/ic_launcher.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/composeApp/src/androidMain/res/mipmap-anydpi-v26/ic_launcher_round.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/composeApp/src/androidMain/res/mipmap-hdpi/ic_launcher.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/composeApp/src/androidMain/res/mipmap-hdpi/ic_launcher_round.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/composeApp/src/androidMain/res/mipmap-mdpi/ic_launcher.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/composeApp/src/androidMain/res/mipmap-mdpi/ic_launcher_round.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/composeApp/src/androidMain/res/mipmap-xhdpi/ic_launcher.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/composeApp/src/androidMain/res/mipmap-xhdpi/ic_launcher_round.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/composeApp/src/androidMain/res/mipmap-xxhdpi/ic_launcher.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/composeApp/src/androidMain/res/mipmap-xxhdpi/ic_launcher_round.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/composeApp/src/androidMain/res/mipmap-xxxhdpi/ic_launcher.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/composeApp/src/androidMain/res/mipmap-xxxhdpi/ic_launcher_round.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/composeApp/src/androidMain/res/values/strings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/composeApp/src/commonMain/composeResources/drawable/book_error_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/composeApp/src/commonMain/composeResources/drawable/compose-multiplatform.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/composeApp/src/commonMain/composeResources/values/strings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/composeApp/src/commonMain/kotlin/com/sample/bookpedia/core/data/remote/HttpClientExtenstion.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/composeApp/src/commonMain/kotlin/com/sample/bookpedia/core/data/remote/HttpClientFactory.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/composeApp/src/commonMain/kotlin/com/sample/bookpedia/core/di/MainModule.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/composeApp/src/commonMain/kotlin/com/sample/bookpedia/core/di/initKoin.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/composeApp/src/commonMain/kotlin/com/sample/bookpedia/core/domain/DataError.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/composeApp/src/commonMain/kotlin/com/sample/bookpedia/core/domain/Error.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/composeApp/src/commonMain/kotlin/com/sample/bookpedia/core/domain/Result.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/composeApp/src/commonMain/kotlin/com/sample/bookpedia/core/presentation/App.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/composeApp/src/commonMain/kotlin/com/sample/bookpedia/core/presentation/Colors.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/composeApp/src/commonMain/kotlin/com/sample/bookpedia/core/presentation/UiText.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/composeApp/src/commonMain/kotlin/com/sample/bookpedia/core/presentation/animations/PulseAnimation.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/composeApp/src/commonMain/kotlin/com/sample/bookpedia/core/presentation/navigation/AppNavGraph.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/composeApp/src/commonMain/kotlin/com/sample/bookpedia/core/presentation/navigation/Screen.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/composeApp/src/commonMain/kotlin/com/sample/bookpedia/core/utils/DataErrorToStringResource.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/composeApp/src/commonMain/kotlin/com/sample/bookpedia/core/utils/Logger.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/composeApp/src/commonMain/kotlin/com/sample/bookpedia/feat_book/data/database/BookDatabaseConstructor.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/composeApp/src/commonMain/kotlin/com/sample/bookpedia/feat_book/data/database/DatabaseFactory.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/composeApp/src/commonMain/kotlin/com/sample/bookpedia/feat_book/data/database/FavoriteBookDatabase.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/composeApp/src/commonMain/kotlin/com/sample/bookpedia/feat_book/data/database/FavouriteBookDao.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/composeApp/src/commonMain/kotlin/com/sample/bookpedia/feat_book/data/database/entities/AuthorEntity.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/composeApp/src/commonMain/kotlin/com/sample/bookpedia/feat_book/data/database/entities/BookAuthorCrossRef.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/composeApp/src/commonMain/kotlin/com/sample/bookpedia/feat_book/data/database/entities/BookEntity.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/composeApp/src/commonMain/kotlin/com/sample/bookpedia/feat_book/data/database/entities/BookLanguageCrossRef.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/composeApp/src/commonMain/kotlin/com/sample/bookpedia/feat_book/data/database/entities/LanguageEntity.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/composeApp/src/commonMain/kotlin/com/sample/bookpedia/feat_book/data/database/relations/FullBookDetails.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/composeApp/src/commonMain/kotlin/com/sample/bookpedia/feat_book/data/dto/details/BookWorkDto.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/composeApp/src/commonMain/kotlin/com/sample/bookpedia/feat_book/data/dto/details/DescriptionDto.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/composeApp/src/commonMain/kotlin/com/sample/bookpedia/feat_book/data/dto/search/SearchResponseDto.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/composeApp/src/commonMain/kotlin/com/sample/bookpedia/feat_book/data/dto/search/SearchedBookDto.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/composeApp/src/commonMain/kotlin/com/sample/bookpedia/feat_book/data/mappers/BookMappers.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/composeApp/src/commonMain/kotlin/com/sample/bookpedia/feat_book/data/remote/KtorRemoteBookDataSource.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/composeApp/src/commonMain/kotlin/com/sample/bookpedia/feat_book/data/remote/RemoteBookDataSource.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/composeApp/src/commonMain/kotlin/com/sample/bookpedia/feat_book/data/repository/DefaultBookRepository.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/composeApp/src/commonMain/kotlin/com/sample/bookpedia/feat_book/data/serializers/BookWorkSerializer.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/composeApp/src/commonMain/kotlin/com/sample/bookpedia/feat_book/domain/model/Book.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/composeApp/src/commonMain/kotlin/com/sample/bookpedia/feat_book/domain/repository/BookRepository.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/composeApp/src/commonMain/kotlin/com/sample/bookpedia/feat_book/presentation/book_details/BookDetailsAction.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/composeApp/src/commonMain/kotlin/com/sample/bookpedia/feat_book/presentation/book_details/BookDetailsScreen.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/composeApp/src/commonMain/kotlin/com/sample/bookpedia/feat_book/presentation/book_details/BookDetailsState.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/composeApp/src/commonMain/kotlin/com/sample/bookpedia/feat_book/presentation/book_details/BookDetailsViewModel.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/composeApp/src/commonMain/kotlin/com/sample/bookpedia/feat_book/presentation/book_details/components/BlurredImageBackground.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/composeApp/src/commonMain/kotlin/com/sample/bookpedia/feat_book/presentation/book_details/components/BookChip.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/composeApp/src/commonMain/kotlin/com/sample/bookpedia/feat_book/presentation/book_details/components/TitledContent.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/composeApp/src/commonMain/kotlin/com/sample/bookpedia/feat_book/presentation/book_details/utils/ChipSize.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/composeApp/src/commonMain/kotlin/com/sample/bookpedia/feat_book/presentation/book_graph/SharedBookViewModel.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/composeApp/src/commonMain/kotlin/com/sample/bookpedia/feat_book/presentation/book_list/BookListAction.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/composeApp/src/commonMain/kotlin/com/sample/bookpedia/feat_book/presentation/book_list/BookListScreen.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/composeApp/src/commonMain/kotlin/com/sample/bookpedia/feat_book/presentation/book_list/BookListState.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/composeApp/src/commonMain/kotlin/com/sample/bookpedia/feat_book/presentation/book_list/BookListViewModel.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/composeApp/src/commonMain/kotlin/com/sample/bookpedia/feat_book/presentation/book_list/components/BookList.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/composeApp/src/commonMain/kotlin/com/sample/bookpedia/feat_book/presentation/book_list/components/BookListItem.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/composeApp/src/commonMain/kotlin/com/sample/bookpedia/feat_book/presentation/book_list/components/BookSearchBar.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/composeApp/src/desktopMain/kotlin/com/sample/bookpedia/core/di/MainModule.desktop.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/composeApp/src/desktopMain/kotlin/com/sample/bookpedia/feat_book/data/database/DatabaseFactory.desktop.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/composeApp/src/desktopMain/kotlin/com/sample/bookpedia/main.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/composeApp/src/iosMain/kotlin/com/sample/bookpedia/MainViewController.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/composeApp/src/iosMain/kotlin/com/sample/bookpedia/core/di/MainModule.ios.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/composeApp/src/iosMain/kotlin/com/sample/bookpedia/feat_book/data/database/DatabaseFactory.ios.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gradle/libs.versions.toml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/iosApp/Configuration/Config.xcconfig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/iosApp/iosApp.xcodeproj/project.pbxproj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/iosApp/iosApp/Assets.xcassets/AccentColor.colorset/Contents.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/iosApp/iosApp/Assets.xcassets/AppIcon.appiconset/Contents.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/iosApp/iosApp/Assets.xcassets/AppIcon.appiconset/app-icon-1024.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/iosApp/iosApp/Assets.xcassets/Contents.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/iosApp/iosApp/ContentView.swift" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/iosApp/iosApp/Info.plist" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/iosApp/iosApp/Preview Content/Preview Assets.xcassets/Contents.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/iosApp/iosApp/iOSApp.swift" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -26,7 +332,7 @@
   <component name="CodeInsightWorkspaceSettings">
     <option name="optimizeImportsOnTheFly" value="true" />
   </component>
-  <component name="ExecutionTargetManager" SELECTED_TARGET="device_and_snapshot_combo_box_target[DeviceId(pluginId=PhysicalDevice, isTemplate=false, identifier=serial=4b6457c6)]" />
+  <component name="ExecutionTargetManager" SELECTED_TARGET="device_and_snapshot_combo_box_target[DeviceId(pluginId=LocalEmulator, isTemplate=false, identifier=path=C:\Users\Ritik Malhotra\.android\avd\Pixel_9_Pro_Fold.avd)]" />
   <component name="ExternalProjectsData">
     <projectState path="$PROJECT_DIR$">
       <ProjectState />
@@ -72,6 +378,11 @@
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="master" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="GitHubPullRequestSearchHistory">{
@@ -121,7 +432,7 @@
     &quot;cf.first.check.clang-format&quot;: &quot;false&quot;,
     &quot;cidr.known.project.marker&quot;: &quot;true&quot;,
     &quot;com.google.services.firebase.aqiPopupShown&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;animation&quot;,
     &quot;last_opened_file_path&quot;: &quot;C:/Projects/CMP-Bookpedia-initial/CMP-Bookpedia-initial&quot;,
     &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
     &quot;project.structure.proportion&quot;: &quot;0.17&quot;,
@@ -340,6 +651,21 @@
     </task>
     <servers />
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Initial Commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="Initial Commit" />
+  </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
@@ -355,5 +681,26 @@
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
+  </component>
+  <component name="play_dynamic_filters_status">
+    <option name="appIdToCheckInfo">
+      <map>
+        <entry key="com.sample.bookpedia">
+          <value>
+            <CheckInfo lastCheckTimestamp="1764564171647" />
+          </value>
+        </entry>
+        <entry key="com.sample.bookpedia">
+          <value>
+            <CheckInfo lastCheckTimestamp="1764564171647" />
+          </value>
+        </entry>
+        <entry key="com.sample.bookpedia.test">
+          <value>
+            <CheckInfo lastCheckTimestamp="1764564171652" />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
 </project>
